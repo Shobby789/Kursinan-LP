@@ -1,6 +1,7 @@
 import React from "react";
 import { styles } from "../../styles/styles";
 import ProductCard from "./ProductCard";
+import { products } from "../../constants/products";
 
 const Products = () => {
   return (
@@ -21,9 +22,9 @@ const Products = () => {
       <div
         className={`w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6`}
       >
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        {products.map((product, index) => {
+          return <ProductCard product={product} key={index} />;
+        })}
       </div>
       <div className="flex flex-col items-center gap-6">
         <h1 className="text-white font-semibold text-7xl text-center lg:leading-[90px]">

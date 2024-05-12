@@ -1,6 +1,9 @@
 import React from "react";
 import { styles } from "../../styles/styles";
 import { HiMiniCheckBadge } from "react-icons/hi2";
+import { FaAward } from "react-icons/fa";
+import { TbAwardFilled } from "react-icons/tb";
+import { FaSquareWebAwesome } from "react-icons/fa6";
 
 const WhyChooseOuProduct = () => {
   return (
@@ -16,8 +19,8 @@ const WhyChooseOuProduct = () => {
         </div>
         <div className="col-span-2 lg:col-span-1 flex flex-col items-start justify-center lg:px-6">
           <div className="border-b w-full flex items-center gap-4 pb-8">
-            <div className="w-16 h-16 border border-black rounded-full flex items-center justify-center p-1">
-              <HiMiniCheckBadge className="w-full h-full" />
+            <div className="w-16 h-16 border border-black rounded-full flex items-center justify-center p-3">
+              <FaSquareWebAwesome className="w-full h-full" />
             </div>
             <div className="flex flex-col gap-1 lg:pr-2">
               <h1 className="text-2xl font-semibold">
@@ -29,7 +32,7 @@ const WhyChooseOuProduct = () => {
             </div>
           </div>
           <div className="border-b w-full flex items-center gap-4 py-8">
-            <div className="w-[72px] h-16 border border-black rounded-full flex items-center justify-center p-1">
+            <div className="w-[72px] h-16 border border-black rounded-full flex items-center justify-center p-2">
               <HiMiniCheckBadge className="w-full h-full" />
             </div>
             <div className="flex flex-col gap-1 lg:pr-2">
@@ -40,8 +43,8 @@ const WhyChooseOuProduct = () => {
             </div>
           </div>
           <div className="border-b w-full flex items-center gap-4 py-8">
-            <div className="w-[72px] h-16 border border-black rounded-full flex items-center justify-center p-1">
-              <HiMiniCheckBadge className="w-full h-full" />
+            <div className="w-[72px] h-16 border border-black rounded-full flex items-center justify-center p-3">
+              <TbAwardFilled className="w-full h-full" />
             </div>
             <div className="flex flex-col gap-1 lg:pr-2">
               <h1 className="text-2xl font-semibold">Long warranty</h1>

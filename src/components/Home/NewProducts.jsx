@@ -25,7 +25,7 @@ const NewProducts = () => {
           <img
             src="https://images.unsplash.com/photo-1567538096621-38d2284b23ff?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
-            className="w-full h-full"
+            className="w-full h-full opacity-[0.9] group-hover:opacity-[5] transition-all duration-300"
           />
           <button className="invisible transition-all duration-200 w-16 h-16 flex items-center justify-center p-4 bg-slate-300 rounded-full absolute top-[60%] left-12 group-hover:visible">
             <GoArrowUpRight className="text-white w-full h-full" />
@@ -50,7 +50,7 @@ const NewProducts = () => {
           <img
             src="https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?q=80&w=1812&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
-            className="w-full h-full"
+            className="w-full h-full opacity-[0.9] group-hover:opacity-[5] transition-all duration-300"
           />
           <button className="invisible transition-all duration-200 w-16 h-16 flex items-center justify-center p-4 bg-slate-300 rounded-full absolute top-[60%] left-12 group-hover:visible">
             <GoArrowUpRight className="text-white w-full h-full" />
@@ -70,12 +70,12 @@ const NewProducts = () => {
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>
         <div className="w-full relative group">
           <img
             src="https://images.unsplash.com/photo-1561677978-583a8c7a4b43?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
-            className="w-full h-full"
+            className="w-full h-full opacity-[0.9] group-hover:opacity-[5] transition-all duration-300"
           />
           <button className="invisible transition-all duration-200 w-16 h-16 flex items-center justify-center p-4 bg-slate-300 rounded-full absolute top-[60%] left-12 group-hover:visible">
             <GoArrowUpRight className="text-white w-full h-full" />
@@ -95,12 +95,12 @@ const NewProducts = () => {
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>
         <div className="w-full relative group">
           <img
             src="https://images.unsplash.com/photo-1554104707-a76b270e4bbb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
-            className="w-full h-full"
+            className="w-full h-full opacity-[0.9] group-hover:opacity-[5] transition-all duration-300"
           />
           <button className="invisible transition-all duration-200 w-16 h-16 flex items-center justify-center p-4 bg-slate-300 rounded-full absolute top-[60%] left-12 group-hover:visible">
             <GoArrowUpRight className="text-white w-full h-full" />
