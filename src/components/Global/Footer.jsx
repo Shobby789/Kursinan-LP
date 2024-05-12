@@ -6,7 +6,7 @@ const Footer = () => {
     <footer
       className={`py-6 lg:pt-20 lg:pb-12 ${styles.paddingHorizontal} flex flex-col gap-y-8 bg-black`}
     >
-      <div className="w-full grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+      <div className="w-full flex flex-col lg:flex-row items-start justify-start md:justify-between gap-y-6">
         <div className="flex flex-col gap-4">
           <h1 className="text-2xl font-semibold text-white">General</h1>
           <p className="text-base text-gray-400">Contact</p>
